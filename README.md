@@ -4,17 +4,18 @@
 
 1.**Equal Signs (=)** <br>
 	- Single Equal Sign - (**=**) Assignment operator <br>
-		
+		<pre>
 		'''python 
 			from sympy.abc import x,y 
 			a=x-y
-			print(a)	
+			print(a)'''</pre>	
 			
 	- Double Equal Signs - **==**  Testing Equality <br>
 	
 		 '''python
 			(x+1)**2 - == x\*\*2+2\*x+1
 			False
+
 			
 2. **Variables**
 

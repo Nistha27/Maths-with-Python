@@ -5,14 +5,14 @@
 1.**Equal Signs (=)** <br>
 	- Single Equal Sign - (**=**) Assignment operator <br>
 		
-		st.code(''' python 
+		'''python 
 			from sympy.abc import x,y 
 			a=x-y
-			print(a)'''	)
+			print(a)	
 			
 	- Double Equal Signs - **==**  Testing Equality <br>
 	
-		''' python
+		 '''python
 			(x+1)**2 - == x\*\*2+2\*x+1
 			False
 			

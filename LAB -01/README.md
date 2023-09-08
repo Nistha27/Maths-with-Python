@@ -2,6 +2,12 @@
 ##  Gradient of a Vector 
 The gradient of a vector is a mathematical concept that represents a vector containing the partial derivatives of a multivariable function with respect to each of its input variables. In other words, it quantifies how the function changes as you move in different directions in its input space.
 
+\[
+\begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}
+\]
 ## Divergence of Vector
 The divergence of a vector field is a mathematical operation that represents a scalar quantity. It provides a measure of the rate at which the vector field's vectors spread out or converge at a given point in space. The divergence is often denoted by the symbol ∇· or div and is applied to a vector field V.
 

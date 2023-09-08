@@ -14,4 +14,3 @@ Green's theorem is a fundamental theorem in vector calculus that relates line in
 
 If P (x, y) and Q(x, y) be two continuous functions having continuous partial derivatives in a region R of the xy-plane,
 bounded by a simple closed curve C, 
-

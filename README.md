@@ -8,18 +8,20 @@
 		'''python 
 			from sympy.abc import x,y 
 			a=x-y
-			print(a)'''</pre>	
+			print(a)
+		'''
 			
 	- Double Equal Signs - **==**  Testing Equality <br>
 	
 		 '''python
 			(x+1)**2 - == x\*\*2+2\*x+1
 			False
+		'''
 
 			
 2. **Variables**
 
-	st.code(''' python
+	''' python
 		from sympy import Symbol
 		a = Symbol('a')  # Symbol, `a`, stored as variable "a"
 		b= a + 1         # an expression involving `a` stored as variable "b"
@@ -28,6 +30,8 @@
 		print(a)         # 4
 		print(b)         # a+1 ( "b" is still pointing at the expression involving `a`)''')
 		
+
+
 	
 		
 

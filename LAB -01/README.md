@@ -56,7 +56,10 @@ The curl of a vector field is a mathematical operation that results in a vector 
 For a three-dimensional vector field $\mathbf{V} = \langle V_x, V_y, V_z \rangle$, the curl is defined as follows:
 
 
-$\text{curl}(\mathbf{V}) = \nabla \times \mathbf{V}$ = $$\begin{vmatrix}
+$\text{curl}(\mathbf{V}) = \nabla \times \mathbf{V}$ =
+f =
+$$ 
+\begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 V_x & V_y & V_z
@@ -81,3 +84,18 @@ Green's theorem is a fundamental theorem in vector calculus that relates line in
 
 If P (x, y) and Q(x, y) be two continuous functions having continuous partial derivatives in a region R of the xy-plane,
 bounded by a simple closed curve C, 
+
+Let $\mathcal{C}$ be a positively oriented, piecewise-smooth, simple (non-intersecting) closed curve in the plane, and let $\mathcal{D}$ be the region enclosed by $\mathcal{C}$. If $\mathbf{F} = \langle P, Q \rangle$ is a vector field whose components have continuous first partial derivatives defined on an open region containing $\mathcal{D}$, then the Green's Theorem states:
+
+\[
+$\oint_{\mathcal{C}}$ $\mathbf{F}$ $\cdot$ $d\mathbf{r}$ = $\iint_{\mathcal{D}}$($\frac{\partial Q}{\partial x}$ - $\frac{\partial P}{\partial y}$) $dA$
+\]
+
+Where:
+- $\oint_{\mathcal{C}}$ represents the line integral around the closed curve $\mathcal{C}$.
+- $\mathbf{F}$ is the vector field.
+- $\langle P, Q \rangle$ are the component functions of $\mathbf{F}$.
+- $d\mathbf{r}$ represents the differential displacement vector along the curve $\mathcal{C}$.
+- $\iint_{\mathcal{D}}$ denotes the double integral over the region $\mathcal{D}$.
+- $\frac{\partial Q}{\partial x}$ and $\frac{\partial P}{\partial y}$ are the partial derivatives of $Q$ with respect to $x$ and $P$ with respect to $y$, respectively.
+- $dA$ is the differential area element in the $xy$-plane.

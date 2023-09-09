@@ -52,6 +52,30 @@ The concept of divergence plays a significant role in various areas of science a
 ## Curl of Vector
 The curl of a vector field is a mathematical operation that results in a vector quantity. It describes the rotation or circulation of a vector field at a specific point in space. The curl is often denoted by the symbol ∇× or curl and is applied to a vector field V.
 
+
+For a three-dimensional vector field $\mathbf{V} = \langle V_x, V_y, V_z \rangle$, the curl is defined as follows:
+
+\
+$\text{curl}(\mathbf{V}) = \nabla \times \mathbf{V}$ = $$\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+V_x & V_y & V_z
+\end{vmatrix}$$
+
+
+Here:
+
+- $\nabla$ (pronounced "del") is the gradient operator, which represents the vector of partial derivatives with respect to the spatial coordinates ($x$, $y$, $z$).
+- $\mathbf{i}$, $\mathbf{j}$, and $\mathbf{k}$ are the unit vectors along the $x$, $y$, and $z$ axes, respectively.
+- $\frac{\partial}{\partial x}$, $\frac{\partial}{\partial y}$, and $\frac{\partial}{\partial z}$ are the partial derivative operators with respect to their respective coordinates.
+
+The result of the curl operation is a vector that points in the direction of the axis of rotation or circulation at a given point and whose magnitude represents the strength of the rotation. In physical terms, it helps describe the circulation of a vector field, such as the flow of a fluid or the rotation of an electromagnetic field.
+
+The curl of a vector field is used in various areas of physics and engineering, including fluid dynamics, electromagnetism (where it plays a crucial role in describing electromagnetic induction and electromagnetic waves), and the study of rotational phenomena in general.
+
+In summary, the curl of a vector field characterizes the local rotation or circulation of that field and provides valuable information about its behavior in three-dimensional space.
+
+
 ## Greens Theoram 
 
 Green's theorem is a fundamental theorem in vector calculus that relates line integrals around a closed curve to double integrals over the plane region enclosed by that curve. It is named after the British mathematician George Green and is a generalization of the two-dimensional version of the Fundamental Theorem of Calculus.

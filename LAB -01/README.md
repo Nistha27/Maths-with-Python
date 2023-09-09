@@ -57,13 +57,14 @@ For a three-dimensional vector field $\mathbf{V} = \langle V_x, V_y, V_z \rangle
 
 
 $\text{curl}(\mathbf{V}) = \nabla \times \mathbf{V}$ =
-f =
+ 
 $$ 
-\begin{vmatrix}
+f\begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 V_x & V_y & V_z
-\end{vmatrix}$$
+\end{vmatrix}
+$$
 
 
 Here:

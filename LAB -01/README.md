@@ -55,7 +55,7 @@ The curl of a vector field is a mathematical operation that results in a vector 
 
 For a three-dimensional vector field $\mathbf{V} = \langle V_x, V_y, V_z \rangle$, the curl is defined as follows:
 
-\
+
 $\text{curl}(\mathbf{V}) = \nabla \times \mathbf{V}$ = $$\begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
@@ -74,7 +74,6 @@ The result of the curl operation is a vector that points in the direction of the
 The curl of a vector field is used in various areas of physics and engineering, including fluid dynamics, electromagnetism (where it plays a crucial role in describing electromagnetic induction and electromagnetic waves), and the study of rotational phenomena in general.
 
 In summary, the curl of a vector field characterizes the local rotation or circulation of that field and provides valuable information about its behavior in three-dimensional space.
-
 
 ## Greens Theoram 
 

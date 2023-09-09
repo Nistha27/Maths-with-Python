@@ -27,6 +27,28 @@ For scalar-valued functions (where $f(x)$ returns a single value), the gradient 
 ## Divergence of Vector
 The divergence of a vector field is a mathematical operation that represents a scalar quantity. It provides a measure of the rate at which the vector field's vectors spread out or converge at a given point in space. The divergence is often denoted by the symbol ∇· or div and is applied to a vector field V.
 
+**Divergence of a Vector**
+
+$\nabla \cdot \mathbf{V}$.
+
+Mathematically, for a three-dimensional vector field $\mathbf{V} = \langle V_x, V_y, V_z \rangle$, the divergence is defined as follows:
+
+$$
+\text{div}(\mathbf{V}) = \nabla \cdot \mathbf{V} = \frac{\partial V_x}{\partial x} + \frac{\partial V_y}{\partial y} + \frac{\partial V_z}{\partial z}
+$$
+
+Here:
+
+- $\nabla$ (pronounced "del") is the gradient operator, which represents the vector of partial derivatives with respect to the spatial coordinates ($x$, $y$, $z$).
+- $\frac{\partial V_x}{\partial x}$, $\frac{\partial V_y}{\partial y}$, and $\frac{\partial V_z}{\partial z}$ are the partial derivatives of the vector field components with respect to their respective coordinates.
+
+The result of the divergence operation is a scalar quantity that indicates whether the vector field at a specific point is a source (positive divergence), a sink (negative divergence), or neither (zero divergence). In physical terms, it helps describe how much of a vector quantity (e.g., fluid flow or electric field) is entering or leaving a small volume surrounding a point.
+
+If the divergence of a vector field is zero at all points in a region, the field is said to be "divergence-free" or "incompressible" in that region. Such vector fields are often encountered in fluid dynamics and electromagnetism.
+
+The concept of divergence plays a significant role in various areas of science and engineering, including fluid mechanics, electromagnetism, and the study of vector fields in general.
+
+
 ## Curl of Vector
 The curl of a vector field is a mathematical operation that results in a vector quantity. It describes the rotation or circulation of a vector field at a specific point in space. The curl is often denoted by the symbol ∇× or curl and is applied to a vector field V.
 
